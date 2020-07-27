@@ -83,7 +83,7 @@ weight = 4
 
 ########################### Default parameters ##########################
 [params]
-logo = "images/logo1.png"
+logo = "images/logo.png"
 logo_width = "100px"
 # Meta data
 description = "Garmin, Trig, Whelen, Artex, Clavis, Barfield"
