@@ -1,0 +1,46 @@
+---
+label: Product
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: image
+  label: image
+- name: mpn
+  type: text
+  config:
+    required: false
+  label: MPN
+  description: The Manufacturer Part Number
+- type: text
+  name: price
+  label: price
+- type: text
+  name: discount_price
+  label: discount_price
+- type: list
+  name: colors
+  label: colors
+- type: list
+  name: variant
+  label: Variant
+- type: text
+  name: overview
+  label: Overview
+- name: specifications
+  type: text
+  config:
+    required: false
+  label: Specifications
+- name: in_the_box
+  type: text
+  config:
+    required: false
+  label: In The Box
+- name: documents
+  type: text
+  config:
+    required: false
+  label: Documents
